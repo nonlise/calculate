@@ -9,7 +9,6 @@ find_package(Qt6 REQUIRED COMPONENTS Quick Svg)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
-# Собираем QML файлы
 file(GLOB_RECURSE QML_FILES_ABSOLUTE
     "${CMAKE_CURRENT_SOURCE_DIR}/src/ui/*.qml"
 )
