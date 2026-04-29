@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(untitled VERSION 0.1 LANGUAGES CXX)
-find_package(Qt6 REQUIRED COMPONENTS Quick Svg)
+
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
 set(CMAKE_AUTORCC ON)
+
+find_package(Qt6 REQUIRED COMPONENTS Quick Svg)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
