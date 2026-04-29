@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/OpenSansSemibold.otf</file>
+        <file>icons/bkt.svg</file>
+        <file>icons/plus_minus.svg</file>
+        <file>icons/percent.svg</file>
+        <file>icons/division.svg</file>
+        <file>icons/multiplication.svg</file>
+        <file>icons/minus.svg</file>
+        <file>icons/plus.svg</file>
+        <file>icons/equal.svg</file>
+    </qresource>
+</RCC>
